@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Citas - Citas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gestor de Citas - Citas</h1>
+  </header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="pacientes.html">Pacientes</a>
+    <a href="configuracion.html">Configuración</a>
+  </nav>
+  <main>
+    <h2>Agendar Nueva Cita</h2>
+    <form>
+      <label for="especialidad">Especialidad:</label>
+      <select id="especialidad">
+        <option>Cardiología</option>
+        <option>Pediatría</option>
+        <option>Medicina General</option>
+      </select>
+
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha">
+
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora">
+
+      <button type="submit">Agendar Cita</button>
+    </form>
+  </main>
+</body>
+</html>
